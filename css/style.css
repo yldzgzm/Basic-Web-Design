@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  width: 95%;
+  margin: auto;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.col-4 {
+  flex-basis: 33.333%;
+  text-align: center;
+  margin: 20px;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#header {
+  background-color: #ffffff;
+  height: auto;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 2px solid #56a699;
+}
+
+#header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header img {
+  width: 120px;
+  max-height: 120px;
+  width: auto;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  height: 70px;
+}
+
+#navbar li {
+  position: relative;
+}
+
+#navbar a,
+#navbar a:focus {
+  padding: 10px 15px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+#navbar a:hover,
+#navbar .active,
+#navbar .active:focus {
+  color: #56a699;
+  text-decoration-line: underline;
+}
+
+.header {
+  color: #56a699;
+  margin-left: 10px;
+}
+
+.header-background {
+  background: url("../img/ipad-tablet-keyboard-mouse.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Metin rengi */
+  border-bottom: 2px solid #56a699;
+
+}
+
+.header-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 50px;
+  width: 500px;
+  padding-bottom: 30px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.icons {
+  width: 100px;
+}
+
+
+.core-features {
+  background: url("../img/water.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.core-features h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.listCont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+li {
+  padding-left: 0;
+  margin-left: 0;
+  color: white;
+  font-size: 25px;
+}
+
+li::before {
+  content: '\2713';
+  margin-right: 10px;
+  color: #fff;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.footer-section {
+  padding: 20px;
+  float: left;
+  width: 33.3333%;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section form {
+  margin-bottom: 10px;
+}
+
+.footer-section input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-section button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  clear: both;
+  text-align: center;
+  padding: 50px;
+  background-color: #56a699;
+}
+
+.fas {
+  margin-right: 5px;
+}
+
+.services-container {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.contact-form-container {
+  max-width: 100%;
+  margin: auto;
+  background-color: #333333;
+  padding: 25px;
+}
+
+.contact-form-container p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 50%;
+  margin-left: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button {
+  width: 50%;
+  margin-left: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #56a699;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #488f78;
+}
